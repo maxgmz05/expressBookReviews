@@ -89,7 +89,7 @@ public_users.get('/author/:author', async function (req, res) {
 });
 
 // Task 4: Get books by title
-public_users.get('/async/title/:title', async function (req, res) {
+public_users.get('/title/:title', async function (req, res) {
   try {
     const title = req.params.title;
     const getBooksByTitle = () => {
